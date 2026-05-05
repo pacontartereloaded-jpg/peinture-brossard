@@ -1,0 +1,32 @@
+# Scripts internos con API keys (NO subir)
+_gen_*.ps1
+_gen_*.py
+_*.py
+*.bak
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores / IDEs / harnais Claude Code
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+
+# Dependencias / build
+node_modules/
+dist/
+.next/
+.cache/
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
